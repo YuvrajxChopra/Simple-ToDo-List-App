@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-pan">
+            <h1>TASK LIST</h1>
+            <p>Add a task to your list by tying to the right and pressing enter. You may then view the pending task below. </p>
+            <div class="tasks">
+                <ul id="todolist"></ul>
+            </div>
+        </div>
+        <div class="right-pan">
+            <form id="form">
+                <input type="text" id="inputbox" placeholder="I need to..."/>
+                <input type="submit" hidden />
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
